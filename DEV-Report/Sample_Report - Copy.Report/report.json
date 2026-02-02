@@ -1,0 +1,134 @@
+{
+  "config": "{\"version\":\"5.66\",\"themeCollection\":{\"baseTheme\":{\"name\":\"CY24SU10\",\"type\":2,\"version\":{\"visual\":\"1.8.95\",\"report\":\"2.0.95\",\"page\":\"1.3.95\"}}},\"activeSectionIndex\":2,\"defaultDrillFilterOtherVisuals\":true,\"linguisticSchemaSyncVersion\":2,\"settings\":{\"useNewFilterPaneExperience\":true,\"allowChangeFilterTypes\":true,\"useStylableVisualContainerHeader\":true,\"queryLimitOption\":6,\"exportDataMode\":1,\"useDefaultAggregateDisplayName\":true,\"useEnhancedTooltips\":true},\"objects\":{\"section\":[{\"properties\":{\"verticalAlignment\":{\"expr\":{\"Literal\":{\"Value\":\"'Top'\"}}}}}],\"outspacePane\":[{\"properties\":{\"expanded\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}]}}",
+  "filters": "[]",
+  "layoutOptimization": 0,
+  "pods": [
+    {
+      "boundSection": "ad2b9b8110757d1b4603",
+      "config": "{}",
+      "name": "e926d7a0706270218edc",
+      "parameters": "[{\"name\":\"6fe71fec877e4757c380\",\"boundFilter\":\"118cc5f4d448dd74e31c\",\"fieldExpr\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Entity\":\"stg_pbi_appusers_metadata\"}},\"Property\":\"AD Group\"}},\"asAggregation\":true}]",
+      "type": 1
+    }
+  ],
+  "resourcePackages": [
+    {
+      "resourcePackage": {
+        "disabled": false,
+        "items": [
+          {
+            "name": "CY24SU10",
+            "path": "BaseThemes/CY24SU10.json",
+            "type": 202
+          }
+        ],
+        "name": "SharedResources",
+        "type": 2
+      }
+    },
+    {
+      "resourcePackage": {
+        "items": [
+          {
+            "name": "JAZZ-circle-logo6974128567272946.png",
+            "path": "JAZZ-circle-logo6974128567272946.png",
+            "type": 100
+          }
+        ],
+        "name": "RegisteredResources",
+        "type": 1
+      }
+    }
+  ],
+  "sections": [
+    {
+      "config": "{}",
+      "displayName": "Page 1",
+      "displayOption": 1,
+      "filters": "[]",
+      "height": 720.00,
+      "name": "2bdf57f011c40509019d",
+      "ordinal": 1,
+      "visualContainers": [
+        {
+          "config": "{\"name\":\"6eecfc07386d58c3ab52\",\"layouts\":[{\"id\":0,\"position\":{\"x\":16,\"y\":0,\"z\":0,\"width\":608,\"height\":720,\"tabOrder\":0}}],\"singleVisual\":{\"visualType\":\"tableEx\",\"projections\":{\"Values\":[{\"queryRef\":\"stg_pbi_dataset_details_2.Dataset name\"},{\"queryRef\":\"stg_pbi_dataset_details_2.id\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"s\",\"Entity\":\"stg_pbi_dataset_details_2\",\"Type\":0}],\"Select\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"s\"}},\"Property\":\"Dataset name\"},\"Name\":\"stg_pbi_dataset_details_2.Dataset name\",\"NativeReferenceName\":\"Dataset name\"},{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"s\"}},\"Property\":\"id\"},\"Name\":\"stg_pbi_dataset_details_2.id\",\"NativeReferenceName\":\"id\"}]},\"drillFilterOtherVisuals\":true}}",
+          "filters": "[]",
+          "height": 720.00,
+          "width": 608.00,
+          "x": 16.00,
+          "y": 0.00,
+          "z": 0.00
+        }
+      ],
+      "width": 1280.00
+    },
+    {
+      "config": "{}",
+      "displayName": "2deployemt",
+      "displayOption": 1,
+      "filters": "[]",
+      "height": 720.00,
+      "name": "66e15e47e641238e2eaa",
+      "ordinal": 2,
+      "visualContainers": [
+        {
+          "config": "{\"name\":\"bfb85a1c18c92341b204\",\"layouts\":[{\"id\":0,\"position\":{\"x\":16,\"y\":0,\"z\":0,\"width\":608,\"height\":720,\"tabOrder\":0}}],\"singleVisual\":{\"visualType\":\"tableEx\",\"projections\":{\"Values\":[{\"queryRef\":\"stg_pbi_dataset_details_2.Dataset name\"},{\"queryRef\":\"stg_pbi_dataset_details_2.id\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"s\",\"Entity\":\"stg_pbi_dataset_details_2\",\"Type\":0}],\"Select\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"s\"}},\"Property\":\"Dataset name\"},\"Name\":\"stg_pbi_dataset_details_2.Dataset name\",\"NativeReferenceName\":\"Dataset name\"},{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"s\"}},\"Property\":\"id\"},\"Name\":\"stg_pbi_dataset_details_2.id\",\"NativeReferenceName\":\"id\"}]},\"drillFilterOtherVisuals\":true}}",
+          "filters": "[]",
+          "height": 720.00,
+          "width": 608.00,
+          "x": 16.00,
+          "y": 0.00,
+          "z": 0.00
+        }
+      ],
+      "width": 1280.00
+    },
+    {
+      "config": "{\"objects\":{\"displayArea\":[{\"properties\":{\"verticalAlignment\":{\"expr\":{\"Literal\":{\"Value\":\"'Middle'\"}}}}}],\"background\":[{\"properties\":{\"transparency\":{\"expr\":{\"Literal\":{\"Value\":\"36D\"}}},\"color\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":0,\"Percent\":-0.1}}}}}}}]},\"visibility\":0}",
+      "displayName": "FAQ",
+      "displayOption": 1,
+      "filters": "[{\"name\":\"118cc5f4d448dd74e31c\",\"expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Entity\":\"stg_pbi_appusers_metadata\"}},\"Property\":\"AD Group\"}},\"type\":\"Categorical\",\"howCreated\":5}]",
+      "height": 720.00,
+      "name": "ad2b9b8110757d1b4603",
+      "visualContainers": [
+        {
+          "config": "{\"name\":\"0703b452d2230ea4a09a\",\"layouts\":[{\"id\":0,\"position\":{\"x\":48,\"y\":3,\"z\":1000,\"width\":1232,\"height\":48,\"tabOrder\":1000}}],\"singleVisual\":{\"visualType\":\"textbox\",\"drillFilterOtherVisuals\":true,\"objects\":{\"general\":[{\"properties\":{\"paragraphs\":[{\"textRuns\":[{\"value\":\"Jazz Inventory Report | FAQ\",\"textStyle\":{\"fontWeight\":\"bold\",\"fontSize\":\"18pt\",\"color\":\"#7b1861\"}}]}]}}]},\"vcObjects\":{\"background\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}],\"title\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}}}}]}}}",
+          "filters": "[]",
+          "height": 48.00,
+          "width": 1232.00,
+          "x": 48.00,
+          "y": 3.00,
+          "z": 1000.00
+        },
+        {
+          "config": "{\"name\":\"480836cec3819c17495a\",\"layouts\":[{\"id\":0,\"position\":{\"x\":16,\"y\":96,\"z\":3000,\"width\":1248,\"height\":608,\"tabOrder\":3000}}],\"singleVisual\":{\"visualType\":\"textbox\",\"drillFilterOtherVisuals\":true,\"objects\":{\"general\":[{\"properties\":{\"paragraphs\":[{\"textRuns\":[{\"value\":\"                             Power BI Additional Resources & Support\",\"textStyle\":{\"fontSize\":\"25pt\",\"color\":\"#7b1861\"}}]},{\"textRuns\":[{\"value\":\"​\",\"textStyle\":{\"fontSize\":\"25pt\",\"color\":\"#000000\"}}]},{\"textRuns\":[{\"value\":\"Support and Helpful Links​\",\"textStyle\":{\"fontSize\":\"16pt\",\"color\":\"#7b1861\"}}]},{\"textRuns\":[{\"value\":\"Submitting Tickets: \",\"textStyle\":{\"fontSize\":\"16pt\",\"color\":\"#000000\"}},{\"value\":\"ServiceNow\",\"textStyle\":{\"fontSize\":\"16pt\",\"textDecoration\":\"underline\",\"color\":\"#467886\"},\"url\":\"https://jazz.service-now.com/sp?id=sc_cat_item&sys_id=94f6706d1b162810bd3884c0f54bcbbe\"},{\"value\":\"​\",\"textStyle\":{\"fontSize\":\"16pt\",\"color\":\"windowtext\"}}],\"listType\":\"bullet\"},{\"textRuns\":[{\"value\":\"Teams Channel for Q&A Development Support: \",\"textStyle\":{\"fontSize\":\"16pt\",\"color\":\"#000000\"}},{\"value\":\"Power BI CoE - Developer Q and A\",\"textStyle\":{\"fontSize\":\"16pt\",\"textDecoration\":\"underline\",\"color\":\"#467886\"},\"url\":\"https://teams.microsoft.com/l/channel/19%3A6630a9c390d9467194a68a66d086c872%40thread.tacv2/Power%20BI%20CoE%20-%20Developer%20Q%20and%20A?groupId=e2e330ad-d0f1-4588-ac16-6cdd05be993a&tenantId=ee09a3fc-a3f5-4d93-98c6-dac96059eeea&ngc=true\"},{\"value\":\"​\",\"textStyle\":{\"fontSize\":\"16pt\",\"color\":\"windowtext\"}}],\"listType\":\"bullet\"},{\"textRuns\":[{\"value\":\"Power BI Report Template: \",\"textStyle\":{\"fontSize\":\"16pt\",\"color\":\"#000000\"}},{\"value\":\"Jazz Design Report Template\",\"textStyle\":{\"fontSize\":\"16pt\",\"textDecoration\":\"underline\",\"color\":\"#467886\"},\"url\":\"https://jazzpharma.sharepoint.com/sites/EnterpriseDataAnalytics/Shared%20Documents/Forms/AllItems.aspx?csf=1&web=1&e=DJmPu3&ovuser=ee09a3fc%2Da3f5%2D4d93%2D98c6%2Ddac96059eeea%2Ckvivekreddy%40jazzpharma%2Ecom&OR=Teams%2DHL&CT=1738683337566&clickparams=eyJBcHBOYW1lIjoiVGVhbXMtRGVza3RvcCIsIkFwcFZlcnNpb24iOiIxNDE1LzI1MDEwNjIwNDEwIiwiSGFzRmVkZXJhdGVkVXNlciI6ZmFsc2V9&CID=723c7ea1%2Df04f%2D7000%2Ddafe%2Dcbdba861b301&cidOR=SPO&FolderCTID=0x012000B1BF7902D1723A4E89E20452CFF3F5B0&id=%2Fsites%2FEnterpriseDataAnalytics%2FShared%20Documents%2FPower%20BI%20CoE%2FGovernance%2FDesign%20References&viewid=4d2fceb1%2Daeb6%2D4daf%2Dbb15%2Da4e865f0b0ca\"}],\"listType\":\"bullet\"},{\"textRuns\":[{\"value\":\"​\",\"textStyle\":{\"fontSize\":\"16pt\",\"color\":\"windowtext\"}}]},{\"textRuns\":[{\"value\":\"Power BI at Jazz – Best Practices​\",\"textStyle\":{\"fontSize\":\"16pt\",\"color\":\"#7b1861\"}}]},{\"textRuns\":[{\"value\":\"We've compiled training materials and best practices\",\"textStyle\":{\"fontSize\":\"16pt\",\"color\":\"#000000\"}},{\"value\":\" \",\"textStyle\":{\"fontSize\":\"16pt\",\"textDecoration\":\"underline\",\"color\":\"#000000\"},\"url\":\"https://jazzpharma.sharepoint.com/:f:/r/sites/DataAnalyticsandAICoP/Shared%20Documents/Power%20BI%20Center%20of%20Excellence?csf=1&web=1&e=nagexY\"},{\"value\":\"here\",\"textStyle\":{\"fontSize\":\"16pt\",\"textDecoration\":\"underline\",\"color\":\"#467886\"},\"url\":\"https://jazzpharma.sharepoint.com/:f:/r/sites/DataAnalyticsandAICoP/Shared%20Documents/Power%20BI%20Center%20of%20Excellence?csf=1&web=1&e=nagexY\"},{\"value\":\". \",\"textStyle\":{\"fontSize\":\"16pt\",\"color\":\"#000000\"}},{\"value\":\"​\",\"textStyle\":{\"fontSize\":\"16pt\",\"color\":\"windowtext\"}}]},{\"textRuns\":[{\"value\":\"Power BI Developer Guide\",\"textStyle\":{\"fontSize\":\"16pt\",\"textDecoration\":\"underline\",\"color\":\"#467886\"},\"url\":\"https://jazzpharma.sharepoint.com/:b:/r/sites/DataAnalyticsandAICoP/Shared%20Documents/Power%20BI%20Center%20of%20Excellence/PowerBI-Developer-Guide.pdf?csf=1&web=1&e=L1YbL1\"},{\"value\":\"​\",\"textStyle\":{\"fontSize\":\"16pt\",\"color\":\"windowtext\"}}],\"listType\":\"bullet\"},{\"textRuns\":[{\"value\":\"Best Practices and Report Recommendations\",\"textStyle\":{\"fontSize\":\"16pt\",\"textDecoration\":\"underline\",\"color\":\"#467886\"},\"url\":\"https://jazzpharma.sharepoint.com/:b:/r/sites/DataAnalyticsandAICoP/Shared%20Documents/Power%20BI%20Center%20of%20Excellence/Jazz%20Power%20BI%20Self-Service%20Checklist%20-%20Guidelines%20for%20Developers.pdf?csf=1&web=1&e=DLp9YA\"},{\"value\":\", \",\"textStyle\":{\"fontSize\":\"16pt\",\"color\":\"#467886\"}},{\"value\":\"​\",\"textStyle\":{\"fontSize\":\"16pt\",\"color\":\"windowtext\"}}],\"listType\":\"bullet\"},{\"textRuns\":[{\"value\":\"Requirements for Reports in PROD\",\"textStyle\":{\"fontSize\":\"16pt\",\"textDecoration\":\"underline\",\"color\":\"#467886\"},\"url\":\"https://jazzpharma.sharepoint.com/:b:/r/sites/DataAnalyticsandAICoP/Shared%20Documents/Power%20BI%20Center%20of%20Excellence/Deployment%20Checklist.pdf?csf=1&web=1&e=TkFS06\"},{\"value\":\"​\",\"textStyle\":{\"fontSize\":\"16pt\",\"color\":\"windowtext\"}}],\"listType\":\"bullet\"},{\"textRuns\":[{\"value\":\"Training Resource Library\",\"textStyle\":{\"fontSize\":\"16pt\",\"textDecoration\":\"underline\",\"color\":\"#467886\"},\"url\":\"https://jazzpharma.sharepoint.com/:b:/r/sites/DataAnalyticsandAICoP/Shared%20Documents/Power%20BI%20Center%20of%20Excellence/PBI%20Report%20Builder%20-%20training%20material%20for%20developers.pdf?csf=1&web=1&e=WXiGsJ\"}],\"listType\":\"bullet\"},{\"textRuns\":[{\"value\":\"​\",\"textStyle\":{\"fontSize\":\"16pt\",\"color\":\"windowtext\"}}]},{\"textRuns\":[{\"value\":\"Further Learning​\",\"textStyle\":{\"fontSize\":\"16pt\",\"color\":\"#7b1861\"}}]},{\"textRuns\":[{\"value\":\"Power BI documentation - Power BI | Microsoft Learn\",\"textStyle\":{\"fontSize\":\"16pt\",\"textDecoration\":\"underline\",\"color\":\"#467886\"},\"url\":\"https://learn.microsoft.com/en-us/power-bi/\"},{\"value\":\" \",\"textStyle\":{\"fontSize\":\"16pt\",\"color\":\"#467886\"}},{\"value\":\"​\",\"textStyle\":{\"fontSize\":\"16pt\",\"color\":\"windowtext\"}}],\"listType\":\"bullet\"},{\"textRuns\":[{\"value\":\"Browse all courses, learning paths, and modules - Training | Microsoft Learn\",\"textStyle\":{\"fontSize\":\"16pt\",\"textDecoration\":\"underline\",\"color\":\"#467886\"},\"url\":\"https://learn.microsoft.com/en-us/training/browse/?products=power-bi\"},{\"value\":\" \",\"textStyle\":{\"fontSize\":\"16pt\",\"color\":\"#467886\"}},{\"value\":\"​\",\"textStyle\":{\"fontSize\":\"16pt\",\"color\":\"windowtext\"}}],\"listType\":\"bullet\"},{\"textRuns\":[{\"value\":\"Fabric Documentation\",\"textStyle\":{\"fontSize\":\"16pt\",\"textDecoration\":\"underline\",\"color\":\"#467886\"},\"url\":\"https://community.fabric.microsoft.com/t5/custom/page/page-id/Custom_Welcome_Page\"},{\"value\":\" \",\"textStyle\":{\"fontSize\":\"16pt\",\"color\":\"#467886\"}},{\"value\":\"​\",\"textStyle\":{\"fontSize\":\"11pt\",\"color\":\"windowtext\"}}],\"listType\":\"bullet\"},{\"textRuns\":[{\"value\":\"​\",\"textStyle\":{\"fontSize\":\"11pt\",\"color\":\"windowtext\"}}]},{\"textRuns\":[{\"value\":\"​\",\"textStyle\":{\"fontSize\":\"12pt\",\"color\":\"windowtext\"}}]},{\"textRuns\":[{\"value\":\"\"}]}]}}]},\"vcObjects\":{\"background\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"transparency\":{\"expr\":{\"Literal\":{\"Value\":\"58D\"}}}}}]}}}",
+          "filters": "[]",
+          "height": 608.00,
+          "width": 1248.00,
+          "x": 16.00,
+          "y": 96.00,
+          "z": 3000.00
+        },
+        {
+          "config": "{\"name\":\"abf5513490097c8006c0\",\"layouts\":[{\"id\":0,\"position\":{\"x\":0,\"y\":65.3731343283582,\"z\":2000,\"width\":1279.7014925373135,\"height\":12.53731343283582,\"tabOrder\":2000}}],\"singleVisual\":{\"visualType\":\"shape\",\"drillFilterOtherVisuals\":true,\"objects\":{\"shape\":[{\"properties\":{\"tileShape\":{\"expr\":{\"Literal\":{\"Value\":\"'line'\"}}}}}],\"rotation\":[{\"properties\":{\"shapeAngle\":{\"expr\":{\"Literal\":{\"Value\":\"0L\"}}}}}],\"outline\":[{\"properties\":{\"lineColor\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":0,\"Percent\":-0.6}}}}}},\"selector\":{\"id\":\"default\"}}],\"fill\":[{\"properties\":{\"fillColor\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":0,\"Percent\":-0.6}}}}}},\"selector\":{\"id\":\"default\"}}]},\"vcObjects\":{\"padding\":[{\"properties\":{\"left\":{\"expr\":{\"Literal\":{\"Value\":\"20D\"}}},\"right\":{\"expr\":{\"Literal\":{\"Value\":\"20D\"}}}}}]}}}",
+          "filters": "[]",
+          "height": 12.54,
+          "width": 1279.70,
+          "x": 0.00,
+          "y": 65.37,
+          "z": 2000.00
+        },
+        {
+          "config": "{\"name\":\"d046614bb069240dd719\",\"layouts\":[{\"id\":0,\"position\":{\"x\":0,\"y\":0,\"z\":0,\"width\":48,\"height\":48,\"tabOrder\":0}}],\"singleVisual\":{\"visualType\":\"image\",\"drillFilterOtherVisuals\":true,\"objects\":{\"general\":[{\"properties\":{\"imageUrl\":{\"expr\":{\"ResourcePackageItem\":{\"PackageName\":\"RegisteredResources\",\"PackageType\":1,\"ItemName\":\"JAZZ-circle-logo6974128567272946.png\"}}}}}]},\"vcObjects\":{\"lockAspect\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}}}}],\"title\":[{\"properties\":{\"text\":{\"expr\":{\"Literal\":{\"Value\":\"'jazz logo'\"}}}}}]}},\"howCreated\":\"InsertVisualButton\"}",
+          "filters": "[]",
+          "height": 48.00,
+          "width": 48.00,
+          "x": 0.00,
+          "y": 0.00,
+          "z": 0.00
+        }
+      ],
+      "width": 1280.00
+    }
+  ]
+}
